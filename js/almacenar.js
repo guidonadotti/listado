@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded",()=>{
     let items = JSON.parse(localStorage.getItem("items"));
     for (let i = 0; i < items.length; i++) {
         listado.innerHTML+=`<li>${items[i]}</li>`;    
-}});
+    }
+});
 
 document.getElementById("agregar").addEventListener("click",()=>{
     array.push(item.value);
