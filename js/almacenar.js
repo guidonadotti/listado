@@ -17,6 +17,7 @@ document.getElementById("agregar").addEventListener("click",()=>{
 });
 
 document.getElementById("limpiar").addEventListener("click",()=>{
+	array.splice(0, array.length);
     listado.innerHTML="";
     localStorage.clear();
 });
